@@ -1,4 +1,4 @@
-package br.com.granja_api;
+package br.com.granja.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,8 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'br.com.granja-api' is invalid and this project uses 'br.com.granja_api' instead.
+* The Maven group name `br.com.granja-api` is not a valid Java package name, so the
+  application uses `br.com.granja.api` as its package base.
 
 # Getting Started
 
@@ -28,4 +29,3 @@ Due to Maven's design, elements are inherited from the parent POM to the project
 While most of the inheritance is fine, it also inherits unwanted elements like `<license>` and `<developers>` from the parent.
 To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
-
